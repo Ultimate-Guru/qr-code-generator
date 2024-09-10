@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Qr Code Generator</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="https://files.oaiusercontent.com/file-FfDmJzM3YNZhklQ2WgGHQTSD?se=2024-09-10T10%3A32%3A47Z&sp=r&sv=2024-08-04&sr=b&rscc=max-age%3D604800%2C%20immutable%2C%20private&rscd=attachment%3B%20filename%3D93ef4603-4e88-45f1-b55f-de67feff94da.webp&sig=HKCYUEgK6Jr2XBI2IO04d6xtXvTJZBMTjnVRTCOaRSM%3D" type="image/x-icon">
+</head>
+
+<body>
+
+    <div class="container">
+        <p>Enter your URL</p>
+        <input type="text" placeholder="Text or URL" id="qrText" onclick="generateQr()">
+
+        <div id="qrbox">
+            <img src="" alt="" id="qrImage">
+        </div>
+
+        <button onclick="generateQR()">Generate QR Code</button>
+    </div>
+
+
+    <script src="main.js"></script>
+</body>
+
+</html>
